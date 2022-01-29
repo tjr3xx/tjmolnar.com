@@ -16,8 +16,7 @@ enableInlineShortcodes = true
 
 # ------------------------------
 [params]
-# twitter = 'tjr3xx'
-  github = 'tjr3xx'
+  github = "tjr3xx"
   
   
 # ------------------------------
