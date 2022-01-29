@@ -1,4 +1,30 @@
 baseURL = "https://tjmolnar.onrender.com"
-languageCode = "en-us"
-title = "TJ Molnar [tjr3xx]"
 theme = "hugo-paper"
+
+# ------------------------------
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+
+# ------------------------------
+title = "TJ Molnar [tjr3xx]"
+author = "TJ Molnar"
+copyright = "Copyright © 2022, tjmolnar.com"
+
+# ------------------------------
+paginate = 5
+enableInlineShortcodes = true
+
+# ------------------------------
+[params]
+# twitter = 'tjr3xx'
+  github = 'tjr3xx'
+  
+  
+# ------------------------------
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
