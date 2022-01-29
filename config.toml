@@ -1,4 +1,4 @@
 baseURL = "https://tjmolnar.onrender.com"
 languageCode = "en-us"
-title = "Deploy Hugo on Render"
-theme = "ananke"
+title = "TJ Molnar [tjr3xx]"
+theme = "hugo-paper"
