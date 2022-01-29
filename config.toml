@@ -1,5 +1,5 @@
 baseURL = "https://tjmolnar.onrender.com"
-theme = "hugo-paper"
+#theme = "hugo-paper"
 
 # ------------------------------
 languageCode = "en-us"
