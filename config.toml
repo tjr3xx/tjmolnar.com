@@ -15,8 +15,8 @@ enableInlineShortcodes = true
 
 # ------------------------------
 [params]
-  github = "tjr3xx"
-  linkedin = "tj-molnar"
+  github = "https://github.com/tjr3xx"
+  linkedin = "https://www.linkedin.com/in/tj-molnar"
   
 # ------------------------------
 [menu]
