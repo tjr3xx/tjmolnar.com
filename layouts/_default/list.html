@@ -23,10 +23,10 @@
 {{ if gt $paginator.TotalPages 1 }}
 <nav class="main-nav">
   {{ if $paginator.HasPrev }}
-  <a class="prev" href="{{ $paginator.Prev.URL }}">← {{ i18n "prev_page" }}</a>
+  <a class="prev" href="{{ $paginator.Prev.URL }}">← Prev Page</a>
   {{ end }}<!---->
   {{ if $paginator.HasNext }}
-  <a class="next" href="{{ $paginator.Next.URL }}">{{ i18n "next_page" }} →</a>
+  <a class="next" href="{{ $paginator.Next.URL }}">Next Page →</a>
   {{ end }}
 </nav>
 {{ end }}<!---->
