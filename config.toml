@@ -26,6 +26,19 @@ enableInlineShortcodes = true
     name = "About"
     url = "/about/"
     weight = 10
+    
+  [[menu.main]]
+    identifier = "tags"
+    name = "Post by Tags"
+    url = "/tags/"
+    weight = 10
+    
+  [[menu.main]]
+    identifier = "categories"
+    name = "Post by Category"
+    url = "/categories/"
+    weight = 10
+  
 
 [sitemap]
   changefreq = 'monthly'
