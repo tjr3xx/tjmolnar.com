@@ -26,7 +26,11 @@ enableInlineShortcodes = true
     name = "About"
     url = "/about/"
     weight = 10
-    
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
     
 [outputs]
     home = ["HTML","Lunr"]
