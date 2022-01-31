@@ -26,3 +26,17 @@ enableInlineShortcodes = true
     name = "About"
     url = "/about/"
     weight = 10
+    
+    
+[outputs]
+    home = ["HTML","Lunr"]
+
+[outputFormats.Lunr]
+baseName = "lunr"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.lunr]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"]
