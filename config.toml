@@ -7,38 +7,17 @@ DefaultContentLanguage = "en"
 # ------------------------------
 title = "TJ Molnar [tjr3xx]"
 author = "TJ Molnar"
-copyright = "Copyright © 2022, tjmolnar.com"
+copyright = "Copyright © 2023, tjmolnar.com"
 
 # ------------------------------
 paginate = 5
 enableInlineShortcodes = true
+disableKinds = ['taxonomy', 'term', 'contact']
 
 # ------------------------------
 [params]
   github = "https://github.com/tjr3xx"
   linkedin = "https://www.linkedin.com/in/tj-molnar"
-  
-# ------------------------------
-[menu]
-
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-    
-  [[menu.main]]
-    identifier = "tags"
-    name = "Post by Tags"
-    url = "/tags/"
-    weight = 10
-    
-  [[menu.main]]
-    identifier = "categories"
-    name = "Post by Category"
-    url = "/categories/"
-    weight = 10
-  
 
 [sitemap]
   changefreq = 'monthly'
@@ -46,14 +25,5 @@ enableInlineShortcodes = true
   priority = 0.5
     
 [outputs]
-    home = ["HTML","Lunr"]
+    home = ["HTML"]
 
-[outputFormats.Lunr]
-baseName = "lunr"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = true
-
-[params.lunr]
-vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
-params = ["categories", "tags"]
